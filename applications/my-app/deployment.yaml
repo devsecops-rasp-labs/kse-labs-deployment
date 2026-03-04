@@ -19,7 +19,7 @@ spec:
         - name: ghcr-pull-secret
       containers:
         - name: my-app
-          image: ghcr.io/devsecops-rasp-labs/my-app:d056ce31857635fa9b73ea5bee5135b4dba5dcd2
+          image: ghcr.io/devsecops-rasp-labs/my-app:ba4c1200714de29947936878889ea78eab8237fe
           ports:
             - name: http
               containerPort: 3000
